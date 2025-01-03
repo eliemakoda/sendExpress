@@ -1,0 +1,111 @@
+/***
+=============================================
+Page Header
+=============================================
+***/
+.page-header {
+    position: relative;
+    display: block;
+    padding: 187px 0px 192px;
+    z-index: 1;
+}
+
+.page-header__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+
+.page-header__bg::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(6, 46, 57);
+    background: linear-gradient(90deg, rgba(6, 46, 57, 1) 13%, rgba(6, 46, 57, 0.8071603641456583) 35%, rgba(6, 46, 57, 0.5550595238095238) 60%, rgba(6, 46, 57, 0.4206057422969187) 100%);
+    content: "";
+    z-index: -1;
+}
+
+.page-header__pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.page-header__inner {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+}
+
+.page-header__inner::before {
+    position: absolute;
+    top: -7px;
+    left: 0;
+    bottom: -12px;
+    width: 5px;
+    background: var(--logistiq-base);
+    content: "";
+}
+
+.page-header__inner h2 {
+    color: var(--logistiq-white);
+    font-size: 74px;
+    line-height: 1.1em;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+
+.page-header__inner .thm-breadcrumb {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.page-header__inner .thm-breadcrumb li {
+    color: var(--logistiq-white);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.page-header__inner .thm-breadcrumb li:first-child {
+    margin-left: 0px;
+}
+
+.page-header__inner .thm-breadcrumb li:last-child {
+    margin-right: 0px;
+}
+
+.page-header__inner .thm-breadcrumb li a {
+    color: var(--logistiq-base);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.page-header__inner .thm-breadcrumb li span {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 700;
+    top: 2px;
+}

@@ -1,0 +1,196 @@
+/***
+=============================================
+Pricing One
+=============================================
+***/
+.pricing-one {
+    position: relative;
+    display: block;
+    background: var(--logistiq-gray-bg);
+    padding: 120px 0px 210px;
+    z-index: 1;
+}
+
+.pricing-one__pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-position: center center;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.pricing-one__single {
+    position: relative;
+    display: block;
+    background: var(--logistiq-white);
+    padding: 15px 15px 15px;
+    margin-bottom: 30px;
+}
+
+.pricing-one__single-inner {
+    position: relative;
+    display: block;
+    background: var(--logistiq-gray-bg);
+    padding: 45px 50px 45px;
+}
+
+.pricing-one__single-inner .table-header {
+    position: relative;
+    display: block;
+}
+
+.pricing-one__single-inner .table-header .img-box {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    margin: 0 auto 31px;
+    overflow: hidden;
+}
+
+.pricing-one__single-inner .table-header .img-box::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+    background: rgba(var(--logistiq-black-rgb), 0.5);
+    opacity: 0;
+    z-index: 1;
+    content: "";
+}
+
+.pricing-one__single:hover .pricing-one__single-inner .table-header .img-box::before {
+    opacity: 1;
+}
+
+.pricing-one__single-inner .table-header .img-box img {
+    width: 100%;
+    transition: .5s ease;
+    transform: scale(1.05);
+}
+
+.pricing-one__single:hover .pricing-one__single-inner .table-header .img-box img {
+    transform: scale(1);
+}
+
+.pricing-one__single-inner .table-header .title-box {
+    position: relative;
+    display: block;
+}
+
+.pricing-one__single-inner .table-header .title-box h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+
+.pricing-one__single-inner .table-header .title-box h3 {
+    color: var(--logistiq-base);
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.pricing-one__single-inner .table-header .title-box h3 span {
+    position: relative;
+    display: inline-block;
+    color: var(--logistiq-black);
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: -3px;
+}
+
+.pricing-one__single-inner .table-content {
+    position: relative;
+    display: block;
+    margin-top: 31px;
+}
+
+.pricing-one__single-inner .table-content ul {
+    position: relative;
+    display: block;
+}
+
+.pricing-one__single-inner .table-content ul li {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.pricing-one__single-inner .table-content ul li+li {
+    margin-top: 7px;
+}
+
+.pricing-one__single-inner .table-content ul li .icon {
+    position: relative;
+    display: block;
+}
+
+.pricing-one__single-inner .table-content ul li .icon span {
+    position: relative;
+    display: inline-block;
+    color: var(--logistiq-base);
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.pricing-one__single-inner .table-content ul li .text-box {
+    position: relative;
+    display: block;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.pricing-one__single-inner .table-content ul li .text-box p {
+    margin: 0;
+}
+
+.pricing-one__single-inner .table-footer {
+    position: relative;
+    display: block;
+}
+
+.pricing-one__single-inner .table-footer .btn-box {
+    position: relative;
+    display: block;
+    margin-top: 28px;
+    line-height: 0px;
+}
+
+/***
+=============================================
+Pricing One Pricing
+=============================================
+***/
+.pricing-one--pricing {
+    position: relative;
+    display: block;
+    padding: 120px 0px 90px;
+}
+
+/***
+=============================================
+Brand One Pricing
+=============================================
+***/
+.brand-one--pricing {
+    position: relative;
+    display: block;
+    background: var(--logistiq-white);
+}
+
+.brand-one--pricing .brand-one__single-inner::before {
+    background: var(--logistiq-gray-bg);
+}

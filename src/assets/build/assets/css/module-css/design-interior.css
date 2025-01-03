@@ -1,0 +1,114 @@
+/*--------------------------------------------------------------
+# Design Interior
+--------------------------------------------------------------*/
+.design-interior {
+    position: relative;
+    display: block;
+    padding: 120px 0 120px;
+    border-bottom: 1px solid var(--tecture-bdr-color);
+    z-index: 1;
+}
+
+.design-interior__inner {
+    position: relative;
+    display: block;
+}
+
+.design-interior__left {
+    position: relative;
+    display: block;
+    background-color: var(--tecture-black);
+    margin-top: 55px;
+    margin-right: 43px;
+    padding: 101px 80px 29px;
+    z-index: 1;
+}
+
+.design-interior__left:before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 90px;
+    right: 420px;
+    height: 1px;
+    background-color: var(--tecture-base);
+}
+
+.design-interior__shape-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.design-interior__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -35px;
+}
+
+.design-interior__list li {
+    position: relative;
+    display: block;
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
+    padding: 0 35px;
+    margin-bottom: 65px;
+}
+
+.design-interior__single {
+    position: relative;
+    display: block;
+}
+
+.design-interior__title {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 38px;
+    border-bottom: 1px solid var(--tecture-base);
+    margin-bottom: 23px;
+    padding-bottom: 22px;
+}
+
+.design-interior__title a {
+    color: var(--tecture-white);
+}
+
+.design-interior__title a:hover {
+    color: var(--tecture-base);
+}
+
+.design-interior__right {
+    position: relative;
+    display: block;
+    margin-left: -373px;
+}
+
+.design-interior__img {
+    position: relative;
+    display: block;
+}
+
+.design-interior__img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

@@ -1,0 +1,244 @@
+/***
+=============================================
+Skill One
+=============================================
+***/
+.skill-one {
+    position: relative;
+    display: block;
+    background: var(--logistiq-white);
+    padding: 120px 0px 120px;
+    z-index: 1;
+}
+
+.skill-one__img {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.skill-one__img .shape1 {
+    position: absolute;
+    top: 30px;
+    right: -35px;
+    z-index: -1;
+}
+
+.skill-one__img .shape2 {
+    position: absolute;
+    left: 135px;
+    bottom: -100px;
+    z-index: -1;
+}
+
+.skill-one__img1 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    max-width: 450px;
+    width: 100%;
+    z-index: 1;
+}
+
+.skill-one__img1::before {
+    background: rgba(255, 255, 255, 0.3);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    opacity: 1;
+    z-index: 9;
+    pointer-events: none;
+}
+
+.skill-one__img1:hover::before {
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.skill-one__img1 img {
+    width: 100%;
+    transition: .5s ease;
+    transform: scale(1.05);
+}
+
+.skill-one__img1:hover img {
+    transform: scale(1);
+}
+
+.skill-one__img2 {
+    position: absolute;
+    bottom: -115px;
+    right: 0;
+    z-index: 1;
+}
+
+.skill-one__img2::before {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    bottom: 0px;
+    right: 0px;
+    background: var(--logistiq-white);
+    content: "";
+    z-index: -1;
+}
+
+.skill-one__img2 .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.skill-one__img2 .inner::before {
+    background: rgba(255, 255, 255, 0.3);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    opacity: 1;
+    z-index: 9;
+    pointer-events: none;
+}
+
+.skill-one__img2:hover .inner::before {
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.skill-one__img2 .inner img {
+    width: 100%;
+    transition: .5s ease;
+    transform: scale(1.05);
+}
+
+.skill-one__img2:hover .inner img {
+    transform: scale(1);
+}
+
+.skill-one__content {
+    position: relative;
+    display: block;
+    margin-left: 100px;
+}
+
+.skill-one__content .sec-title {
+    padding-bottom: 31px;
+}
+
+.skill-one__content-text {
+    position: relative;
+    display: block;
+}
+
+.skill-one__content-text p {
+    margin: 0;
+}
+
+.skill-one__progress {
+    position: relative;
+    display: block;
+    margin-top: 35px;
+}
+
+.skill-one__progress li {
+    position: relative;
+    display: block;
+}
+
+.skill-one__progress li+li {
+    margin-top: 38px;
+}
+
+.skill-one__progress-single {
+    position: relative;
+    display: block;
+}
+
+.skill-one__progress-single .title-box {
+    position: relative;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.skill-one__progress-single .title-box p {
+    color: var(--logistiq-black);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.skill-one__progress-single .bar {
+    position: relative;
+    width: 100%;
+    height: 3px;
+    background-color: #E4E4E4;
+}
+
+.skill-one__progress-single .bar-inner {
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 3px;
+    border-radius: 0px;
+    background-color: var(--logistiq-base);
+    -webkit-transition: all 1500ms ease;
+    -ms-transition: all 1500ms ease;
+    -o-transition: all 1500ms ease;
+    -moz-transition: all 1500ms ease;
+    transition: all 1500ms ease;
+}
+
+.skill-one__progress-single .count-text {
+    position: absolute;
+    right: 0px;
+    bottom: -13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--logistiq-white);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+    height: 30px;
+    background: var(--logistiq-base);
+    opacity: 0;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.skill-one__progress-single .bar-inner.counted .count-text {
+    opacity: 1;
+}
+
+.skill-one__progress-single .bar-inner.counted .count-text::before {
+    position: absolute;
+    top: 1px;
+    right: -24px;
+    color: var(--logistiq-base);
+    font-size: 30px;
+    content: "\e933";
+    font-family: 'icomoon' !important;
+    transform: rotate(70deg);
+}
+
+.skill-one__content-btn {
+    position: relative;
+    display: block;
+    line-height: 0;
+    margin-top: 55px;
+}

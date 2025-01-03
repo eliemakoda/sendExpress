@@ -1,0 +1,62 @@
+/***
+=============================================
+Brand One
+=============================================
+***/
+.brand-one {
+    position: relative;
+    display: block;
+    background: var(--logistiq-gray-bg);
+    padding: 60px 0px 60px;
+    z-index: 2;
+}
+
+.brand-one__single {
+    position: relative;
+    display: block;
+}
+
+.brand-one__single-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px 24px;
+    z-index: 1;
+}
+
+.brand-one__single-inner::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--logistiq-white);
+    transform: scaleX(0);
+    transition: all 600ms ease 100ms;
+    content: "";
+    z-index: -1;
+}
+
+.brand-one__single:hover .brand-one__single-inner::before {
+    transform: scaleY(1);
+}
+
+.brand-one__single-inner a {
+    position: relative;
+    display: block;
+}
+
+.brand-one__single-inner img {
+    width: auto;
+    transition: .7s ease;
+    transform: scale(1.05);
+}
+
+.brand-one__single:hover .brand-one__single-inner img {
+    transform: scale(1);
+}
+
+.brand-one__carousel.owl-carousel .owl-item img {
+    width: auto;
+}

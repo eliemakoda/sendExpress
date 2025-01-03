@@ -1,0 +1,248 @@
+/***
+=============================================
+Contact Page
+=============================================
+***/
+.contact-page {
+    position: relative;
+    display: block;
+    padding: 0px 0px 0px;
+    z-index: 1;
+}
+
+.contact-page__top {
+    position: relative;
+    display: block;
+    padding: 120px 0px 245px;
+    background: var(--logistiq-gray-bg);
+    z-index: 1;
+}
+
+.contact-page__top-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.contact-page__top-content {
+    position: relative;
+    display: block;
+}
+
+.contact-page__top-content .sec-title {
+    padding-bottom: 41px;
+}
+
+.contact-page__top-content-text1 {
+    position: relative;
+    display: block;
+}
+
+.contact-page__top-content-text1 p {
+    margin: 0;
+}
+
+.contact-page__top-content .social-links {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.contact-page__top-content .social-links a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgba(var(--logistiq-gray-rgb), 0.1);
+    color: var(--logistiq-black);
+}
+
+.contact-page__top-content .social-links a+a {
+    margin-left: 10px;
+}
+
+.contact-page__top-content .social-links a:hover {
+    color: var(--logistiq-white);
+    background: var(--logistiq-base);
+}
+
+.contact-page__top-content .social-links a span {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.contact-page__top-form {
+    position: relative;
+    display: block;
+}
+
+.contact-page__top-form .why-choose-one__form .input-box input[type="text"],
+.contact-page__top-form .why-choose-one__form .input-box input[type="email"] {
+    background-color: transparent;
+}
+
+.contact-page__top-form .why-choose-one__form .input-box .nice-select {
+    background-color: transparent;
+}
+
+.contact-page__top-form .why-choose-one__form .input-box textarea {
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    padding-left: 20px;
+    padding-right: 40px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--logistiq-gray);
+    border-radius: 2px;
+    font-family: var(--logistiq-font);
+    width: 100%;
+    height: 120px;
+    padding-top: 11px;
+    outline: none;
+    resize: none;
+}
+
+.contact-page__top-form .why-choose-one__form .input-box .icon.style2 {
+    top: 11%;
+    transform: translateY(0%);
+}
+
+.contact-page__bottom {
+    position: relative;
+    display: block;
+    margin-top: -126px;
+    margin-bottom: -130px;
+    z-index: 5;
+}
+
+.contact-page__bottom-inner {
+    position: relative;
+    display: block;
+    background: var(--logistiq-white);
+    padding: 50px 0px 42px;
+    border-radius: 3px;
+}
+
+.contact-page__bottom-inner ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-page__bottom-inner ul li {
+    position: relative;
+    display: block;
+    padding-right: 75px;
+    margin-right: 75px;
+}
+
+.contact-page__bottom-inner ul li:first-child {
+    padding-left: 75px;
+}
+
+.contact-page__bottom-inner ul li:last-child {
+    margin-right: 0px;
+}
+
+.contact-page__bottom-inner ul li::before {
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    bottom: -42px;
+    border-right: 1px dashed #e4e4e4;
+    content: "";
+}
+
+.contact-page__bottom-inner ul li:last-child:before {
+    display: none;
+}
+
+.contact-page__bottom-single {
+    position: relative;
+    display: block;
+}
+
+.contact-page__bottom-single .icon {
+    position: relative;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.contact-page__bottom-single .icon span {
+    position: relative;
+    display: block;
+    color: var(--logistiq-base);
+    font-size: 50px;
+    line-height: 50px;
+    transition-delay: 0.1s;
+    transition: all 500ms ease;
+}
+
+.contact-page__bottom-single:hover .icon span {
+    transform: rotateY(180deg);
+    transition-delay: 0.1s;
+}
+
+.contact-page__bottom-single .content {
+    position: relative;
+    display: block;
+}
+
+.contact-page__bottom-single .content h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.contact-page__bottom-single .content p {
+    margin: 0;
+}
+
+.contact-page__bottom-single .content p a {
+    color: var(--logistiq-gray);
+}
+
+.contact-page__bottom-single .content p a:hover {
+    color: var(--logistiq-base);
+}
+
+
+/***
+=============================================
+Google Map One
+=============================================
+***/
+.google-map-one {
+    position: relative;
+    display: block;
+    z-index: 0;
+}
+
+.google-map-one__map {
+    position: relative;
+    display: block;
+    border: none;
+    height: 550px;
+    width: 100%;
+}

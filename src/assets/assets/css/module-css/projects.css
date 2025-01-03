@@ -1,0 +1,635 @@
+/***
+=============================================
+Project One
+=============================================
+***/
+.project-one {
+    position: relative;
+    display: block;
+    background: var(--logistiq-white);
+    padding: 120px 0px 150px;
+    z-index: 1;
+}
+
+.project-one__title {
+    position: relative;
+    display: block;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    padding: 49px 55px 49px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.project-one__title .sec-title {
+    padding-bottom: 29px;
+}
+
+.project-one__title .btn-box {
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+
+.project-one__single {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.project-one__single-img {
+    position: relative;
+    display: block;
+}
+
+.project-one__single-img .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.project-one__single-img .inner img {
+    width: 100%;
+    transition: all 500ms ease;
+}
+
+.project-one__single:hover .project-one__single-img .inner img {
+    opacity: 0.5;
+    transform: scaleX(1.05);
+}
+
+.project-one__overlay-content {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 5px solid var(--logistiq-base);
+    padding: 9px 20px 12px;
+    padding-right: 0px;
+    -webkit-transform: perspective(400px) rotateX(35deg) scaleY(0.3);
+    -ms-transform: perspective(400px) rotateX(35deg) scaleY(0.3);
+    transform: perspective(400px) rotateX(35deg) scaleY(0.3);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 0;
+    z-index: 3;
+}
+
+.project-one__single:hover .project-one__overlay-content {
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+}
+
+.project-one__overlay-content::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 20px;
+    background: var(--logistiq-white);
+    border-top-right-radius: 42px;
+    border-bottom-right-radius: 42px;
+    content: "";
+    z-index: -1;
+}
+
+.project-one__overlay-content .text-box {
+    position: relative;
+    display: block;
+}
+
+.project-one__overlay-content .text-box p {
+    color: var(--logistiq-base);
+}
+
+.project-one__overlay-content .text-box h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
+.project-one__overlay-content .text-box h2 a {
+    color: var(--logistiq-black);
+}
+
+.project-one__overlay-content .text-box h2 a:hover {
+    color: var(--logistiq-base);
+}
+
+.project-one__overlay-content .icon {
+    position: relative;
+    display: block;
+}
+
+.project-one__overlay-content .icon a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: var(--logistiq-base);
+}
+
+.project-one__overlay-content .icon a span {
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+}
+
+.project-one__overlay-content .icon a span::before {
+    position: relative;
+    display: inline-block;
+    color: var(--logistiq-white);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/***
+=============================================
+Project Two
+=============================================
+***/
+.project-one--two {
+    position: relative;
+    display: block;
+    padding-bottom: 158px;
+}
+
+/***
+=============================================
+Project One Project
+=============================================
+***/
+.project-one--project {
+    position: relative;
+    display: block;
+    padding-bottom: 90px;
+}
+
+/***
+=============================================
+Project Details
+=============================================
+***/
+.project-details {
+    position: relative;
+    display: block;
+    background: var(--logistiq-white);
+    padding: 120px 0px 120px;
+    z-index: 1;
+}
+
+.project-details__inner {
+    position: relative;
+    display: block;
+}
+
+.project-details__img1 {
+    position: relative;
+    display: block;
+}
+
+.project-details__img1 .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.project-details__img1 .inner img {
+    width: 100%;
+}
+
+.project-details__img1-content {
+    position: absolute;
+    top: -30px;
+    left: 110px;
+    max-width: 425px;
+    width: 100%;
+    z-index: 2;
+}
+
+.project-details__img1-content .title-box {
+    position: relative;
+    display: block;
+    background: var(--logistiq-base);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 32px 55px 32px;
+}
+
+.project-details__img1-content .title-box h2 {
+    color: var(--logistiq-white);
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.project-details__img1-content-list {
+    position: relative;
+    display: block;
+    background: var(--logistiq-white);
+    padding: 5px 30px 6px;
+}
+
+.project-details__img1-content-list ul {
+    position: relative;
+    display: block;
+}
+
+.project-details__img1-content-list ul li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(var(--logistiq-black-rgb), 0.1);
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+
+.project-details__img1-content-list ul li:last-child {
+    border-bottom: none;
+}
+
+.project-details__img1-content-list ul li .title {
+    position: relative;
+    display: block;
+    width: 140px;
+}
+
+.project-details__img1-content-list ul li .title h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.project-details__img1-content-list ul li .text {
+    position: relative;
+    display: block;
+    flex: 1;
+}
+
+.project-details__img1-content-list ul li .text p {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.project-details__img1-content-list ul li .text p a {
+    color: var(--logistiq-gray);
+}
+
+.project-details__img1-content-list ul li .text p a:hover {
+    color: var(--logistiq-base);
+}
+
+.project-details__img1-content-list ul li .social-links {
+    position: relative;
+    display: block;
+}
+
+.project-details__img1-content-list ul li .social-links a {
+    position: relative;
+    display: inline-block;
+    color: var(--logistiq-base);
+}
+
+.project-details__img1-content-list ul li .social-links a+a {
+    margin-left: 7px;
+}
+
+.project-details__img1-content-list ul li .social-links a:hover {
+    color: var(--logistiq-black);
+}
+
+.project-details__img1-content-list ul li .social-links a span {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.project-details__text1 {
+    position: relative;
+    display: block;
+    margin-top: 40px;
+}
+
+.project-details__text1 h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 31px;
+}
+
+.project-details__text1 p {
+    margin: 0;
+}
+
+.project-details__text2 {
+    position: relative;
+    display: block;
+    margin-top: 42px;
+}
+
+.project-details__text2-img {
+    position: relative;
+    display: block;
+    max-width: 620px;
+    width: 100%;
+}
+
+.project-details__text2-img .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.project-details__video-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.project-details__video-icon {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--logistiq-white);
+    background-color: var(--logistiq-base);
+    border: 0px solid var(--logistiq-black);
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.project-details__video-icon:hover {
+    background-color: var(--logistiq-white);
+    color: var(--logistiq-black);
+}
+
+.project-details__video-link .ripple,
+.project-details__video-icon .ripple:before,
+.project-details__video-icon .ripple:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-box-shadow: 0 0 0 0 rgba(var(--logistiq-base-rgb), 0.6);
+    -o-box-shadow: 0 0 0 0 rgba(var(--logistiq-base-rgb), 0.6);
+    -webkit-box-shadow: 0 0 0 0 rgba(var(--logistiq-base-rgb), 0.6);
+    box-shadow: 0 0 0 0 rgba(var(--logistiq-base-rgb), 0.6);
+    -webkit-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+}
+
+.project-details__video-icon .ripple:before {
+    position: absolute;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    content: "";
+}
+
+.project-details__video-icon .ripple:after {
+    position: absolute;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    content: "";
+}
+
+.project-details__text2-img .inner img {
+    width: 100%;
+}
+
+
+
+.project-details__text2-content {
+    position: relative;
+    display: block;
+}
+
+.project-details__text2-content h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 26px;
+}
+
+.project-details__text2-content p {
+    margin: 0;
+}
+
+.project-details__text2-content ul {
+    position: relative;
+    display: block;
+    margin-top: 32px;
+}
+
+.project-details__text2-content ul li {
+    position: relative;
+    display: block;
+    margin-bottom: 9px;
+}
+
+.project-details__text2-content ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.project-details__text2-content ul li p {
+    margin: 0;
+}
+
+.project-details__text2-content ul li p span {
+    position: relative;
+    display: inline-block;
+    color: var(--logistiq-base);
+    font-size: 22px;
+    line-height: 22px;
+    top: 3px;
+    margin-right: 5px;
+}
+
+.project-details__text3 {
+    position: relative;
+    display: block;
+    margin-top: 42px;
+}
+
+.project-details__text3 p {
+    margin: 0;
+}
+
+.project-details__text3 .img-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: 42px;
+}
+
+.project-details__text3 .img-box img {
+    width: 100%;
+}
+
+.project-details__previous-next {
+    position: relative;
+    display: block;
+    margin-top: 60px;
+}
+
+.project-details__previous-next ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(var(--logistiq-black-rgb), 0.1);
+    padding: 15px 20px 15px;
+}
+
+.project-details__previous-next ul li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.project-details__previous-next ul li::before {
+    position: absolute;
+    top: -16px;
+    right: 0;
+    bottom: -16px;
+    width: 2px;
+    background: rgba(var(--logistiq-black-rgb), 0.1);
+    content: "";
+}
+
+.project-details__previous-next ul li:last-child:before {
+    display: none;
+}
+
+.project-details__previous-next ul li:nth-child(2) {
+    float: right;
+    text-align: right;
+}
+
+.project-details__previous-next ul li:nth-child(2) .text-box {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.project-details__previous-next ul li:nth-child(2) .icon a {
+    clip-path: polygon(24% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.project-details__previous-next ul li .icon {
+    position: relative;
+    display: block;
+}
+
+.project-details__previous-next ul li .icon a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    background: var(--logistiq-base);
+    color: var(--logistiq-white);
+    clip-path: polygon(0 0, 79% 0, 100% 100%, 0 100%);
+}
+
+.project-details__previous-next ul li .icon a:hover {
+    background: var(--logistiq-black);
+}
+
+.project-details__previous-next ul li .icon a span {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+.project-details__previous-next ul li .text-box {
+    position: relative;
+    display: block;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.project-details__previous-next ul li .text-box a {
+    color: var(--logistiq-black);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.project-details__previous-next ul li .text-box a:hover {
+    color: var(--logistiq-base);
+}
+
+.project-one--project-details {
+    position: relative;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 90px;
+}
+
+.project-one--project-details .title-box {
+    position: relative;
+    display: block;
+    padding-bottom: 49px;
+    margin-top: -11px;
+}
+
+.project-one--project-details .title-box h2 {
+    font-size: 48px;
+    line-height: 55px;
+    font-weight: 700;
+    text-transform: capitalize;
+}

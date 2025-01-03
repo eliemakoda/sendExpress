@@ -1,0 +1,101 @@
+/***
+=============================================
+Cta One
+=============================================
+***/
+.cta-one {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.cta-one::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 200px;
+    background: var(--logistiq-gray-bg);
+    content: "";
+    z-index: -1;
+}
+
+.cta-one__inner {
+    position: relative;
+    display: block;
+    background: var(--logistiq-black);
+    padding: 65px 95px 75px;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.cta-one__img {
+    position: absolute;
+    right: 185px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.cta-one__pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.cta-one__inner .shape1 {
+    position: absolute;
+    top: 175px;
+    left: 460px;
+    z-index: -1;
+}
+
+.cta-one__inner .shape2 {
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+}
+
+.cta-one__inner .shape3 {
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+    z-index: -1;
+}
+
+.cta-one__content {
+    position: relative;
+    display: block;
+}
+
+.cta-one__content h2 {
+    color: var(--logistiq-white);
+    font-size: 42px;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.cta-one__content h2 span {
+    color: var(--logistiq-base);
+}
+
+.cta-one__content p {
+    color: var(--logistiq-white);
+}
+
+.cta-one__content .btn-box {
+    position: relative;
+    display: block;
+    line-height: 0;
+    margin-top: 37px;
+}
+
+.cta-one__content .btn-box .hover-btn {
+    background-color: var(--logistiq-white);
+}
+
+.cta-one__content .btn-box .thm-btn:hover {
+    color: var(--logistiq-black);
+}

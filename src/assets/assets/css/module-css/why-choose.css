@@ -1,0 +1,849 @@
+/***
+=============================================
+Why Choose One
+=============================================
+***/
+.why-choose-one {
+    position: relative;
+    display: block;
+    background: var(--logistiq-black);
+    padding: 120px 0px 120px;
+    z-index: 2;
+}
+
+.why-choose-one__pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    text-align: center;
+    z-index: -1;
+}
+
+.why-choose-one .shape1 {
+    position: absolute;
+    right: 340px;
+    bottom: -80px;
+    z-index: -1;
+}
+
+.why-choose-one__content {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__content .sec-title {
+    padding-bottom: 31px;
+}
+
+.why-choose-one__content .sec-title__tagline .text h4 {
+    color: var(--logistiq-white);
+}
+
+.why-choose-one__content .sec-title__title {
+    color: var(--logistiq-white);
+}
+
+.why-choose-one__content-list {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__content-list ul {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__content-list ul li {
+    position: relative;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.why-choose-one__content-list ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.why-choose-one__content-list ul li p {
+    color: var(--logistiq-white);
+}
+
+.why-choose-one__content-list ul li p span {
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+    margin-right: 4px;
+    top: 1px;
+}
+
+.why-choose-one__content-list ul li p span::before {
+    position: relative;
+    display: inline-block;
+    color: var(--logistiq-base);
+    font-size: 17px;
+}
+
+.why-choose-one__content .btn-box {
+    position: relative;
+    display: block;
+    line-height: 0px;
+    margin-top: 42px;
+}
+
+.why-choose-one__content .btn-box .thm-btn:hover {
+    color: var(--logistiq-black);
+}
+
+.why-choose-one__content .btn-box .hover-btn {
+    background-color: var(--logistiq-white);
+}
+
+.why-choose-one__form-box {
+    position: relative;
+    display: block;
+    max-width: 580px;
+    width: 100%;
+    float: right;
+    margin-top: -180px;
+    background: var(--logistiq-white);
+    padding: 54px 60px 60px;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+    z-index: 2;
+}
+
+.why-choose-one__form-box .title-box {
+    position: relative;
+    display: block;
+    margin-bottom: 33px;
+}
+
+.why-choose-one__form-box .title-box h2 {
+    font-size: 42px;
+    line-height: 1em;
+    font-weight: 700;
+}
+
+.why-choose-one__form {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__form .input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.why-choose-one__form .input-box .icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.why-choose-one__form .input-box .icon span::before {
+    position: relative;
+    display: inline-block;
+    color: var(--logistiq-gray);
+    font-size: 15px;
+}
+
+.why-choose-one__form .input-box input[type="text"],
+.why-choose-one__form .input-box input[type="email"] {
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: var(--logistiq-white);
+    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    padding-left: 20px;
+    padding-right: 40px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--logistiq-gray);
+    border-radius: 2px;
+    font-family: var(--logistiq-font);
+}
+
+#ui-datepicker-div.ui-widget-content {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid var(--logistiq-black);
+    color: var(--logistiq-black);
+    font-size: 14px;
+    border-radius: 0px;
+    width: 270px;
+    padding: 5px;
+}
+
+#ui-datepicker-div.ui-datepicker .ui-datepicker-header {
+    background: var(--logistiq-base) none repeat scroll 0 0;
+    border: 2px solid var(--logistiq-base);
+    border-radius: 0;
+    color: var(--logistiq-white);
+    font-weight: 700;
+    padding: 5px 0;
+    position: relative;
+}
+
+.ui-datepicker td a {
+    color: #000000 !important;
+    text-align: center;
+    background-image: none !important;
+    background: #f5f5f5 !important;
+    border: 1px solid #f9f9f9 !important;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 1px solid #333333 !important;
+    background: #333333 !important;
+    color: #ffffff !important;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 5px;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    border-radius: 30%;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    width: 20px;
+    background: var(--thm-logistiq);
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    right: 5px;
+}
+
+.ui-datepicker .ui-datepicker-prev:hover,
+.ui-datepicker .ui-datepicker-next:hover {
+    top: 7px;
+    background: var(--logistiq-white);
+    border: none;
+}
+
+.ui-datepicker table {
+    border-collapse: collapse;
+    font-size: 13px;
+    margin: 0 0 0.4em;
+    width: 100%;
+}
+
+.ui-datepicker th {
+    border: medium none;
+    font-weight: 600;
+    padding: 2px 3px;
+    text-align: center;
+}
+
+.ui-datepicker-calendar .ui-state-default:hover,
+.ui-datepicker-calendar .ui-state-default:active {
+    background: #43c3ea;
+    color: #fff;
+    border-color: #43c3ea;
+}
+
+#ui-datepicker-div.ui-widget {
+    font-family: var(--logistiq-font);
+}
+
+#ptTimeSelectCntr .ui-widget {
+    font-family: var(--logistiq-font);
+}
+
+.why-choose-one__form .input-box .select-box {
+    width: 100%;
+}
+
+.why-choose-one__form .input-box .nice-select {
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: var(--logistiq-white);
+    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    padding-left: 20px;
+    padding-right: 40px;
+    outline: none;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 400;
+    color: var(--logistiq-gray);
+    border-radius: 2px;
+    font-family: var(--logistiq-font);
+    float: none;
+}
+
+.why-choose-one__form .input-box .nice-select:after {
+    position: absolute;
+    top: 18px;
+    right: 23px;
+    width: 8px;
+    height: 8px;
+    border-bottom: 1px solid var(--logistiq-gray);
+    border-right: 1px solid var(--logistiq-gray);
+    margin-top: 0px;
+    z-index: 10;
+}
+
+.why-choose-one__form .input-box .nice-select .option {
+    color: var(--logistiq-white);
+}
+
+.why-choose-one__form-distance {
+    position: relative;
+    display: block;
+    margin-bottom: 35px;
+    margin-top: -7px;
+}
+
+.why-choose-one__form-distance .title {
+    position: relative;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.why-choose-one__form-distance .title p {
+    color: var(--logistiq-gray);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.why-choose-one__form-distance-inner {
+    position: relative;
+    display: block;
+    max-width: 460px;
+    width: 100%;
+}
+
+.why-choose-one__form-distance-inner .price-ranger {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__form-distance-inner .ui-widget-content {
+    background: #e4e4e4;
+    border: none;
+    height: 5px;
+}
+
+.why-choose-one__form-distance-inner .ui-slider-handle {
+    position: relative;
+    display: inline-block;
+    background: var(--logistiq-base) none repeat scroll 0 0;
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px;
+    margin-left: -5px;
+    outline: medium none;
+    cursor: pointer;
+}
+
+.why-choose-one__form-distance-inner .ui-slider-handle::before {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 7px;
+    height: 7px;
+    background: var(--logistiq-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    content: "";
+}
+
+.why-choose-one__form-distance-inner .ui-slider-horizontal .ui-slider-handle {
+    top: -16px;
+}
+
+.why-choose-one__form-distance-inner .ui-slider .ui-slider-range {
+    position: relative;
+    display: block;
+    background: var(--logistiq-base);
+    width: 100%;
+    height: 5px;
+}
+
+.why-choose-one__form-distance-inner #slider-range {
+    margin-left: 3px;
+    margin-right: 5px;
+    margin-top: 0;
+    max-width: 315px;
+    width: 100%;
+}
+
+.why-choose-one__form-distance-inner .ranger-min-max-block {
+    position: absolute;
+    top: -22px;
+    right: 0;
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.why-choose-one__form-distance-inner .ranger-min-max-block input {
+    display: inline-block;
+}
+
+.why-choose-one__form-distance-inner .ranger-min-max-block input[type="submit"] {
+    position: relative;
+    display: block;
+    width: 100%;
+    color: var(--logisitq-white);
+    text-align: center;
+    padding: 8px 0 7px;
+    border: 1px solid var(--logisitq-white);
+    background: var(--logisitq-white);
+    cursor: pointer;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    font-family: var(--logistiq-base);
+}
+
+.why-choose-one__form-distance-inner .ranger-min-max-block input[type="submit"]:hover {}
+
+.why-choose-one__form-distance-inner .ranger-min-max-block input[type="text"] {
+    border: medium none;
+    color: var(--logistiq-gray);
+    font-size: 16px;
+    font-weight: 300;
+    outline: medium none;
+    text-align: center;
+    width: 100%;
+    margin-left: -13px;
+    z-index: -1;
+}
+
+.why-choose-one__form-distance-inner .ranger-min-max-block input[type='text'].max {}
+
+.why-choose-one__form-distance-inner .ranger-min-max-block span {
+    color: var(--logistiq-gray);
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-left: -27px;
+}
+
+.why-choose-one__form-btn {
+    position: relative;
+    display: block;
+}
+
+
+/***
+=============================================
+Why Choose Two
+=============================================
+***/
+.why-choose-two {
+    position: relative;
+    display: block;
+    background: var(--logistiq-black);
+    padding: 120px 0px 120px;
+    z-index: 1;
+}
+
+.why-choose-two .shape1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.why-choose-two__bg {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: calc((100% - 220px) / 2);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.why-choose-two__bg::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(var(--logistiq-black-rgb), .20);
+    content: "";
+}
+
+.why-choose-two__bg .shape3 {
+    position: absolute;
+    top: 285px;
+    left: 125px;
+    z-index: 1;
+}
+
+.why-choose-two__video-box {
+    position: absolute;
+    top: -215px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.why-choose-two__video-box-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: var(--logistiq-base);
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.why-choose-two__video-box-icon:hover {
+    color: var(--logistiq-base);
+    background-color: var(--logistiq-white);
+}
+
+.why-choose-two__video-box-icon span::before {
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.why-choose-two__video-box-icon .ripple,
+.why-choose-two__video-box-icon .ripple:before,
+.why-choose-two__video-box-icon .ripple:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translate(-50%, -50%);
+    -ms-box-shadow: 0 0 0 0 rgba(255, 255, 255, 1.0);
+    -o-box-shadow: 0 0 0 0 rgba(255, 255, 255, 1.0);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1.0);
+    -webkit-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+    border-radius: 50%;
+}
+
+.why-choose-two__video-box-icon .ripple:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    content: "";
+    position: absolute;
+}
+
+.why-choose-two__video-box-icon .ripple:after {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    content: "";
+    position: absolute;
+}
+
+.why-choose-two__content {
+    position: relative;
+    display: block;
+}
+
+.why-choose-two__content .sec-title {
+    padding-bottom: 31px;
+}
+
+.why-choose-two__content .sec-title__tagline .text h4 {
+    color: var(--logistiq-white);
+}
+
+.why-choose-two__content .sec-title__title {
+    color: var(--logistiq-white);
+}
+
+.why-choose-two__content-text {
+    position: relative;
+    display: block;
+    max-width: 625px;
+    width: 100%;
+    margin-bottom: 55px;
+}
+
+.why-choose-two__content-text p {
+    color: #E4E4E4;
+}
+
+
+.why-choose-two__content-bottom {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.why-choose-two__content-bottom .shape2 {
+    position: absolute;
+    bottom: 75px;
+    left: 210px;
+    z-index: -1;
+}
+
+.why-choose-two__content-bottom .client-box {
+    position: relative;
+    display: block;
+    padding-left: 25px;
+    width: 230px;
+}
+
+.why-choose-two__content-bottom .client-box::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    background: var(--logistiq-base);
+    content: "";
+}
+
+.why-choose-two__content-bottom .client-box ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.why-choose-two__content-bottom .client-box ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.why-choose-two__content-bottom .client-box ul li+li {
+    margin-left: -14px;
+}
+
+.why-choose-two__content-bottom .client-box ul li .img-box {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--logistiq-black);
+    overflow: hidden;
+}
+
+.why-choose-two__content-bottom .client-box ul li .img-box img {
+    width: 100%;
+}
+
+
+.why-choose-two__content-bottom .count-text-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.why-choose-two__content-bottom .count-text-box::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100% 100%;
+    content: "";
+}
+
+.why-choose-two__content-bottom .count-text-box h2 {
+    color: var(--logistiq-white);
+    font-size: 74px;
+    line-height: 1em;
+    font-weight: 700;
+}
+
+.why-choose-two__content-bottom .count-text-box .plus {
+    color: #ffffff;
+    position: relative;
+    display: block;
+    font-size: 65px;
+    font-weight: 700;
+
+}
+
+.why-choose-two__content-bottom .client-box h3 {
+    position: relative;
+    color: var(--logistiq-white);
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 5px;
+
+}
+
+.why-choose-two__content-bottom-content {
+    position: relative;
+    display: block;
+    background: var(--logistiq-white);
+    padding: 38px 40px 40px;
+    margin-left: 220px;
+    max-width: 650px;
+    width: 100%;
+    z-index: 1;
+}
+
+.why-choose-two__content-bottom-content::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    width: 1px;
+    background: #e4e4e4;
+    content: "";
+    z-index: 1;
+}
+
+.why-choose-two__content-bottom-content::after {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    height: 1px;
+    background: #e4e4e4;
+    content: "";
+    z-index: 1;
+}
+
+.why-choose-two__pattern2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.05;
+    z-index: 0;
+}
+
+.why-choose-two__content-bottom-content ul {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.why-choose-two__content-bottom-content ul+ul {
+    margin-top: 80px;
+}
+
+.why-choose-two__single {
+    position: relative;
+    display: block;
+    max-width: 250px;
+    width: 100%;
+}
+
+.why-choose-two__single-top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.why-choose-two__single-top .icon {
+    position: relative;
+    display: block;
+}
+
+.why-choose-two__single-top .icon span {
+    position: relative;
+    display: block;
+}
+
+.why-choose-two__single-top .icon span::before {
+    position: relative;
+    display: inline-block;
+    color: var(--logistiq-base);
+    font-size: 40px;
+    transition-delay: 0.1s;
+    transition: all 500ms ease;
+}
+
+.why-choose-two__single:hover .why-choose-two__single-top .icon span::before {
+    transform: rotateY(180deg);
+    transition-delay: 0.1s;
+}
+
+.why-choose-two__single-top .title {
+    position: relative;
+    display: block;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.why-choose-two__single-top .title h4 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.why-choose-two__single .text-box {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+}
+
+.why-choose-two__single .text-box::before {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--logistiq-base);
+    content: "";
+}
+
+.why-choose-two__single .text-box p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}

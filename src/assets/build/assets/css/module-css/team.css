@@ -1,0 +1,540 @@
+/***
+=============================================
+Team One
+=============================================
+***/
+.team-one {
+    position: relative;
+    display: block;
+    background: var(--logistiq-white);
+    padding: 120px 0px 120px;
+    z-index: 1;
+}
+
+.team-one__single {
+    position: relative;
+    display: block;
+}
+
+.team-one__single-img {
+    position: relative;
+    display: block;
+    max-width: 355px;
+    width: 100%;
+    z-index: 3;
+}
+
+.team-one__single-img .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: var(--logistiq-black);
+    border-radius: 50%;
+    border-bottom-left-radius: 0px;
+}
+
+.team-one__single-img .inner img {
+    width: 100%;
+    transition: all 500ms ease;
+}
+
+.team-one__single:hover .team-one__single-img .inner img {
+    opacity: 0.5;
+    transform: scaleX(1.05);
+}
+
+.team-one__single-content {
+    position: relative;
+    display: block;
+    padding: 304px 40px 32px;
+    margin-top: -275px;
+    z-index: 1;
+}
+
+.team-one__single-content::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--logistiq-gray-bg);
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+    border-radius: 10px;
+    content: "";
+    z-index: -1;
+}
+
+.team-one__single-content .social-links {
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    z-index: 5;
+}
+
+.team-one__single-content .social-links>li {
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.team-one__single-content .social-links>li:last-child {
+    margin-bottom: 0px;
+}
+
+.team-one__single-content .social-links>li>a {
+    position: relative;
+    display: block;
+    color: var(--logistiq-black);
+    line-height: 0;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-one__single-content .social-links>li>a:hover {
+    color: var(--logistiq-base);
+}
+
+.team-one__single-content .social-links>li>a>span {
+    position: relative;
+    display: inline-block;
+    color: var(--logistiq-black);
+    font-size: 15px;
+    line-height: 15px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-one__single-content .social-links>li>a:hover>span {
+    color: var(--logistiq-base);
+}
+
+.team-one__single-content span {
+    color: var(--logistiq-base);
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.team-one__single-content h2 {
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+
+.team-one__single-content h2 a {
+    color: var(--logistiq-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-one__single-content h2 a:hover {
+    color: var(--logistiq-base);
+}
+
+.team-one__single-content p {
+    margin: 0px;
+}
+
+.team-one__single-content .btn-box {
+    position: relative;
+    display: block;
+    margin-top: 13px;
+}
+
+.team-one__single-content .btn-box a {
+    color: var(--logistiq-black);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.team-one__single-content .btn-box a:hover {
+    color: var(--logistiq-base);
+}
+
+.team-one__single-content .btn-box a i {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 700;
+    top: 2px;
+    margin-left: 2px;
+}
+
+.owl-dot-style1.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 58px;
+}
+
+.owl-dot-style1.owl-theme .owl-dots .owl-dot span {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0px 12.5px;
+    background: var(--logistiq-black);
+    border-radius: 50%;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.owl-dot-style1.owl-theme .owl-dots .owl-dot.active span,
+.owl-dot-style1.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--logistiq-base)
+}
+
+.owl-dot-style1.owl-theme .owl-dots .owl-dot span::before {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    border: 1px solid var(--logistiq-base);
+    border-radius: 50%;
+    transform: scaleX(0);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    content: "";
+}
+
+.owl-dot-style1.owl-theme .owl-dots .owl-dot.active span::before,
+.owl-dot-style1.owl-theme .owl-dots .owl-dot:hover span::before {
+    transform: scaleX(1.0);
+}
+
+
+
+/***
+=============================================
+Team Two
+=============================================
+***/
+.team-one--two {
+    position: relative;
+    display: block;
+    background: var(--logistiq-gray-bg);
+    z-index: 1;
+}
+
+.team-one--two__pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.05;
+    text-align: center;
+    z-index: -1;
+}
+
+.team-one--two .team-one__single-content::before {
+    border: 1px solid #e4e4e4;
+}
+
+/***
+=============================================
+Team Two Team
+=============================================
+***/
+.team-one--two--team {
+    position: relative;
+    display: block;
+    padding-bottom: 90px;
+    z-index: 1;
+}
+
+.team-one--two--team .shape1 {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    opacity: 0.2;
+    text-align: center;
+    z-index: -1;
+}
+
+.team-one--two--team .team-one__single {
+    margin-bottom: 30px;
+}
+
+.team-one--two--team .team-one__single-content::before {
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.05);
+}
+
+/***
+=============================================
+Team Details
+=============================================
+***/
+.team-details {
+    position: relative;
+    display: block;
+    background: var(--logistiq-white);
+    padding: 120px 0px 0px;
+    z-index: 1;
+}
+
+.team-details__top {
+    position: relative;
+    display: block;
+}
+
+.team-details__top-img {
+    position: relative;
+    display: block;
+    max-width: 610px;
+    width: 100%;
+}
+
+.team-details__top-img .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.team-details__top-content {
+    position: relative;
+    display: block;
+}
+
+.team-details__top-content .title-box {
+    position: relative;
+    display: block;
+    margin-bottom: 21px;
+    margin-top: -7px;
+}
+
+.team-details__top-content .title-box .tagline {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.team-details__top-content .title-box .tagline .text {
+    position: relative;
+    display: block;
+}
+
+.team-details__top-content .title-box .tagline .text p {
+    color: var(--logistiq-base);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.team-details__top-content .title-box .tagline .line {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: var(--logistiq-base);
+    margin-left: 20px;
+}
+
+.team-details__top-content .title-box h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 2px;
+}
+
+.team-details__top-content-text {
+    position: relative;
+    display: block;
+}
+
+.team-details__top-content-text p {
+    margin: 0;
+}
+
+.team-details__top-content-contact {
+    position: relative;
+    display: block;
+    margin-top: 25px;
+}
+
+.team-details__top-content-contact ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.team-details__top-content-contact ul li {
+    position: relative;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.team-details__top-content-contact ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.team-details__top-content-contact ul li h4 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.team-details__top-content-contact ul li p {
+    margin: 0;
+}
+
+.team-details__top-content-contact ul li p a {
+    color: var(--logistiq-gray);
+}
+
+.team-details__top-content-contact ul li p a:hover {
+    color: var(--logistiq-base);
+}
+
+.team-details__top-social-links {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.team-details__top-social-links a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgba(var(--logistiq-gray-rgb), 0.1);
+    color: var(--logistiq-black);
+}
+
+.team-details__top-social-links a+a {
+    margin-left: 10px;
+}
+
+.team-details__top-social-links a:hover {
+    color: var(--logistiq-white);
+    background: var(--logistiq-base);
+}
+
+.team-details__top-social-links a span {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.team-details__bottom {
+    position: relative;
+    display: block;
+    background: var(--logistiq-gray-bg);
+    padding: 120px 0px 120px;
+    margin-top: 120px;
+    z-index: 1;
+}
+
+.team-details__bottom-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.team-details__bottom-progress {
+    position: relative;
+    display: block;
+    max-width: 595px;
+    width: 100%;
+}
+
+.team-details__bottom-progress .skill-one__progress li+li {
+    margin-top: 33px;
+}
+
+.team-details__bottom-progress h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 31px;
+}
+
+.team-details__bottom-progress p {
+    margin: 0;
+}
+
+.team-details__bottom-contact {
+    position: relative;
+    display: block;
+    max-width: 530px;
+    width: 100%;
+    margin-left: 70px;
+}
+
+.team-details__bottom-contact .title-box {
+    position: relative;
+    display: block;
+    margin-bottom: 42px;
+}
+
+.team-details__bottom-contact .title-box h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 31px;
+}
+
+.team-details__bottom-contact .title-box p {
+    margin: 0;
+}
+
+.team-details__bottom-contact .why-choose-one__form .input-box input[type="text"],
+.team-details__bottom-contact .why-choose-one__form .input-box input[type="email"] {
+    background-color: transparent;
+}
+
+.team-details__bottom-contact .why-choose-one__form .input-box .nice-select {
+    background-color: transparent;
+}
+
+.team-details__bottom-contact .why-choose-one__form .input-box textarea {
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    padding-left: 20px;
+    padding-right: 40px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--logistiq-gray);
+    border-radius: 2px;
+    font-family: var(--logistiq-font);
+    width: 100%;
+    height: 120px;
+    padding-top: 11px;
+    outline: none;
+    resize: none;
+}
+
+.team-details__bottom-contact .why-choose-one__form .input-box .icon.style2 {
+    top: 11%;
+    transform: translateY(0%);
+}

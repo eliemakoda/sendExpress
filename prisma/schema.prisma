@@ -1,0 +1,72 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+
+
+// ajout d'une imag
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Admin {
+  id        Int    @id @default(autoincrement())
+  name      String
+  surname   String
+  email     String @unique
+  phone     String
+  adresse   String
+  password  String // Added password field
+
+  // Relations
+  blogs     Blog[] 
+  colis     Colis[] 
+  services  Service[]
+}
+
+model Blog {
+  id          Int      @id @default(autoincrement())
+  date        DateTime @default(now())
+  authorId    Int
+  title       String
+  description String
+  image       String
+  comments    Int
+
+  // Relations
+  author      Admin    @relation(fields: [authorId], references: [id])
+}
+
+model Colis {
+  id                Int      @id @default(autoincrement())
+  DateEnvoi         DateTime
+  DescriptionColis  String
+  HeureReception    DateTime
+  NomExpediteur     String
+  ContactExpediteur String
+  AdresseExpediteur String
+  NomRecepteur      String
+  ContactRecepteur  String
+  AdresseDepart     String
+  AdresseArrivee    String
+  PoidColis         String
+  PrixColis         String
+  MoyenTransport    String
+  StatuColis        String
+  PositionColis     String
+  adminId           Int
+
+  // Relations
+  admin             Admin    @relation(fields: [adminId], references: [id])
+}
+
+model Service {
+  id          Int    @id @default(autoincrement())
+  nom         String
+  description String
+  adminId     Int
+
+  // Relations
+  admin       Admin   @relation(fields: [adminId], references: [id])
+}
