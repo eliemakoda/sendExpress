@@ -4,9 +4,11 @@ const { GenerateClient } = require("./client");
 const { GenerateAdmin } = require("./admin");
 const { GenerateApp } = require("./api");
 // const server = express();
-
+const path = require("path");
 const PORT = process.env.PORT || 3000;
 const app = express()
+const clientAssetsPath = path.join(__dirname, "src", "assets", "build");
+
 const server = GenerateApp(app);
 const adminApp = GenerateAdmin(app);
 const clientApp = GenerateClient(app);

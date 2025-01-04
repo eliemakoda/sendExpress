@@ -4,9 +4,9 @@ require("dotenv").config();
 const GenerateClient = (clientApp) => {
   const clientAssetsPath = path.join(__dirname, "src", "assets", "build");
 
-  clientApp.use("/client", express.static(clientAssetsPath));
+  clientApp.use("/", express.static(clientAssetsPath));
 
-  clientApp.get("/client/*", (req, res) => {
+  clientApp.get("/*", (req, res) => {
     res.sendFile(path.join(clientAssetsPath, "index.html"));
   });
   return clientApp;
