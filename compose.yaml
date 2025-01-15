@@ -9,7 +9,7 @@ services:
       - 5000:5000
     networks:
       - my-network
-    command: bash setup.sh
+    command: sh setup.sh
 
 networks:
   my-network:
