@@ -1,0 +1,15 @@
+services:
+  node-server:
+    restart: always
+    build: 
+      context: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 5000:5000
+    networks:
+      - my-network
+  
+
+networks:
+  my-network:
