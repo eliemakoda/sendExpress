@@ -2961,7 +2961,7 @@
     }
 
     .main-header-two {
-        background: var(--logistiq-base);
+        background: var(--logistiq-gray);
         padding: 25px 0px 25px;
     }
 
@@ -3074,7 +3074,7 @@
     }
 
     .main-header-two {
-        background: var(--logistiq-base);
+        background: var(--logistiq-gray);
         padding: 25px 0px 25px;
     }
 

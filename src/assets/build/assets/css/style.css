@@ -16,10 +16,41 @@
 
 /*--------------------------------------------------------------
 # Common
---------------------------------------------------------------*/
+/* --------------------------------------------------------------*/
+/* // The image contains the following prominent colors (in HEX format):
+
+// 1. **#000000** (Black) - Most dominant color (background and details).
+// 2. **#274960** (Dark Blue/Gray).
+// 3. **#a1689d** (Muted Purple).
+// 4. **#000100** (Near Black).
+// 5. **#6c8fd1** (Light Blue).
+// 6. **#010000** (Very Dark Color, almost Black).
+// 7. **#6595d7** (Sky Blue).
+// 8. **#9b6da4** (Soft Purple).
+// 9. **#9b6da3** (Another shade of Purple).
+// 10. **#dd3d64** (Bright Red/Pink).
+
+// These colors represent the palette used in the logo. If you need further details or refinements, feel free to ask! */ 
 :root {
   --logistiq-font: "DM Sans", sans-serif;
-  --logistiq-base: #FD5523;
+  --logistiq-base: #dd3d64;
+  --logistiq-base-rgb: 221, 61, 100;
+  --logistiq-black: #062E39;
+  --logistiq-black-rgb: 0, 0, 0;
+  --logistiq-gray: #062E39;
+  --logistiq-gray-rgb: 39, 73, 96;
+  --logistiq-white: #ffffff;
+  --logistiq-white-rgb: 255, 255, 255;
+  --logistiq-gray-bg: #fff;
+  --logistiq-gray-bg-rgb: 108, 143, 209;
+  --logistiq-bdr-color: #a1689d;
+  --logistiq-bdr-color-rgb: 161, 104, 157;
+}
+
+
+/* :root {
+  --logistiq-font: "DM Sans", sans-serif;
+  --logistiq-base: #dd3d64;
   --logistiq-base-rgb: 253, 85, 35;
   --logistiq-black: #062E39;
   --logistiq-black-rgb: 6, 46, 57;
@@ -31,7 +62,7 @@
   --logistiq-gray-bg-rgb: 244, 245, 249;
   --logistiq-bdr-color: #232423;
   --logistiq-bdr-color-rgb: 35, 36, 35;
-}
+} */
 
 .row {
   --bs-gutter-x: 30px;
@@ -1245,7 +1276,7 @@ animation: spinner 1s infinite linear;
   left: -40px;
   bottom: -20px;
   right: 0;
-  background: var(--logistiq-base);
+  background: var(--logistiq-gray);
   clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
   z-index: -1;
   content: "";
@@ -1837,7 +1868,7 @@ animation: spinner 1s infinite linear;
 .mobile-nav__content .main-menu__list>li>ul>li>ul>li>a>button {
   width: 30px;
   height: 30px;
-  background-color: var(--logistiq-base);
+  background-color: var(--logistiq-gray);
   border: none;
   outline: none;
   color: #fff;
@@ -1970,7 +2001,7 @@ animation: spinner 1s infinite linear;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--logistiq-base);
+  background-color: var(--logistiq-gray);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2033,7 +2064,7 @@ Main Header Two
   left: -9999px;
   bottom: 0;
   right: 130px;
-  background: var(--logistiq-base);
+  background: var(--logistiq-gray);
   content: "";
   z-index: -1;
 }
@@ -2044,7 +2075,7 @@ Main Header Two
   left: 0px;
   bottom: 0;
   right: 0;
-  background: var(--logistiq-base);
+  background: var(--logistiq-gray);
   clip-path: polygon(0% 0%, 100% 0, 85% 71%, 100% 100%, 0% 100%);
   content: "";
   z-index: -1;
@@ -2244,7 +2275,7 @@ Main Header Two
   left: -80px;
   bottom: 0;
   width: 70px;
-  background: #983315;
+  background: var(--logistiq-base);
   clip-path: polygon(0% 0%, 45% 0, 29% 32%, 100% 100%, 0% 100%);
 }
 
@@ -2346,7 +2377,7 @@ Main Header Two
 
 .main-header-two__bottom-right .sidebar-icon a:hover .nav-sidebar-menu-2 {
   width: 20px;
-  background: var(--logistiq-base);
+  background: var(--logistiq-black);
 }
 
 .main-header-two__bottom-right .sidebar-icon a .nav-sidebar-menu-3 {
@@ -2426,7 +2457,7 @@ Main Header Two
 }
 
 .stricky-header--style2 .main-header-two__bottom-right .sidebar-icon a:hover .nav-sidebar-menu-3 {
-  background-color: var(--logistiq-base);
+  background-color: var(--logistiq-gray);
 }
 
 /*--------------------------------------------------------------
@@ -2664,11 +2695,11 @@ Main Header Three
 
 .main-header__language-switcher .nice-select .list {
   width: 65px;
-  background-color: var(--logistiq-base);
+  background-color: var(--logistiq-gray);
 }
 
 .main-header-three__right .header-social-links a:hover {
-  color: var(--logistiq-base);
+  color: var(--logistiq-gray);
 }
 
 .main-header-three__bottom {
