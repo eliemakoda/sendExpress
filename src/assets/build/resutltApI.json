@@ -1,0 +1,165 @@
+[
+    // "https://akila.blog/api/articles/13369230429"
+    {
+        "id": "13",
+        "matricule_service": "def475fg4e4swe",
+        "nom": "CRÉATION D'ENTREPRISE",
+        "description": "<ul>\r\n\t<li>Assistance compl&egrave;te dans le processus de cr&eacute;ation d&rsquo;entreprise : r&eacute;daction des statuts, enregistrement administratif, immatriculation fiscale, etc.</li>\r\n\t<li>&nbsp;Conseils sur le choix du statut juridique le plus adapt&eacute; &agrave; vos objectifs et activit&eacute;s.</li>\r\n\t<li>Accompagnement dans les d&eacute;marches administratives et r&eacute;glementaires pour un d&eacute;marrage serein.</li>\r\n</ul>",
+        "matricule_entreprise": "13369230429",
+        "image": "23-04-29-19akila_blog.jpg",
+        "formation": "1",
+        "at_date": "2023-04-29"
+    },
+    {
+        "id": "14",
+        "matricule_service": "ki569230d429",
+        "nom": "Assistance comptable et fiscale",
+        "description": "<ul>\r\n\t<li>&nbsp;Tenue compl&egrave;te de la comptabilit&eacute; pour entreprises de toutes tailles.</li>\r\n\t<li>&nbsp;Pr&eacute;paration et soumission des d&eacute;clarations fiscales, respectant les d&eacute;lais et les exigences r&eacute;glementaires.</li>\r\n\t<li>&nbsp;Gestion des audits fiscaux et conseils pour minimiser les risques li&eacute;s aux contr&ocirc;les.</li>\r\n\t<li>Suivi&nbsp;des performances financi&egrave;res pour une prise de d&eacute;cison proactive.</li>\r\n</ul>",
+        "matricule_entreprise": "13369230429",
+        "image": "23-04-29-32akila_blog.jpg",
+        "formation": "1",
+        "at_date": "2023-04-29"
+    },
+    {
+        "id": "15",
+        "matricule_service": "133692jfjr45rf",
+        "nom": "CONSEIL",
+        "description": "<ul>\r\n\t<li>Analyse strat&eacute;gique de votre situation fiscale et comptable pour une prise de d&eacute;cision &eacute;clair&eacute;e.</li>\r\n\t<li>&eacute;laboration&nbsp;des solutions personnalis&eacute;es pour optimiser vos finances.</li>\r\n\t<li>Mise en place de syst&egrave;me de gestion comptable adapt&eacute; &agrave;&nbsp;votre activit&eacute;.</li>\r\n</ul>",
+        "matricule_entreprise": "13369230429",
+        "image": "23-04-29-57akila_blog.jpg",
+        "formation": "1",
+        "at_date": "2023-04-29"
+    },
+    {
+        "id": "161",
+        "matricule_service": "67976cb0cbc9c",
+        "nom": "Formation",
+        "description": "<ul>\r\n\t<li><strong>&nbsp;Formations en comptabilit&eacute; et fiscalit&eacute;</strong> : Apprenez &agrave; ma&icirc;triser les bases et les techniques avanc&eacute;es pour une gestion comptable efficace. &nbsp;</li>\r\n\t<li><strong>Ateliers professionnels</strong> : D&eacute;di&eacute;s aux entrepreneurs et responsables financiers, ces sessions abordent des th&eacute;matiques cl&eacute;s telles que la gestion de tr&eacute;sorerie, les d&eacute;clarations fiscales, et la conformit&eacute; l&eacute;gale.</li>\r\n\t<li>&nbsp;Programmes adapt&eacute;s aussi bien aux d&eacute;butants qu&rsquo;aux professionnels exp&eacute;riment&eacute;s d&eacute;sireux de se perfectionner.&nbsp;</li>\r\n</ul>",
+        "matricule_entreprise": "13369230429",
+        "image": "25-01-27-04akila_blog352.jpg",
+        "formation": "1",
+        "at_date": "2025-01-27"
+    }
+]
+
+
+// blog system 
+[
+    {
+        "id": "161",
+        "photo": "24-06-26-01akila_blog696.jpg",
+        "titre": "Qu'est-ce que la facture commerciale ?",
+        "sous_titre": "",
+        "content": "<p>Une facture commerciale est un document officiel utilis&eacute; dans les transactions commerciales pour d&eacute;tailler les biens ou services vendus par un fournisseur &agrave; un acheteur. Elle sert de preuve d&#39;achat et est essentielle pour des raisons comptables, fiscales et l&eacute;gales. Voici les &eacute;l&eacute;ments cl&eacute;s de la facture commerciale :</p>\r\n\r\n<table border=\"1\" cellpadding=\"3\" cellspacing=\"2\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><strong>1. Informations sur le vendeur:</strong><br />\r\n\t\t\t&nbsp; &nbsp;- Nom de l&#39;entreprise<br />\r\n\t\t\t&nbsp; &nbsp;- Adresse compl&egrave;te<br />\r\n\t\t\t&nbsp; &nbsp;- Coordonn&eacute;es (t&eacute;l&eacute;phone, e-mail)<br />\r\n\t\t\t&nbsp; &nbsp;- Num&eacute;ro d&#39;identification fiscale</td>\r\n\t\t\t<td><strong>2. Informations sur l&#39;acheteur&nbsp;:</strong><br />\r\n\t\t\t&nbsp; &nbsp;- Nom de l&#39;entreprise ou du client<br />\r\n\t\t\t&nbsp; &nbsp;- Adresse compl&egrave;te<br />\r\n\t\t\t&nbsp; &nbsp;- Coordonn&eacute;es (t&eacute;l&eacute;phone, e-mail)<br />\r\n\t\t\t&nbsp; &nbsp;- Num&eacute;ro d&#39;identification fiscale (si applicable)</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>3. Description des biens ou services&nbsp;:</strong><br />\r\n\t\t\t&nbsp; &nbsp;- Liste d&eacute;taill&eacute;e des produits ou services fournis<br />\r\n\t\t\t&nbsp; &nbsp;- Quantit&eacute;<br />\r\n\t\t\t&nbsp; &nbsp;- Prix unitaire<br />\r\n\t\t\t&nbsp; &nbsp;- Total par article</td>\r\n\t\t\t<td><strong>4. D&eacute;tails financiers&nbsp;:</strong><br />\r\n\t\t\t&nbsp; &nbsp;- Montant total avant taxes<br />\r\n\t\t\t&nbsp; &nbsp;- Taxes applicables (TVA, etc.)<br />\r\n\t\t\t&nbsp; &nbsp;- Montant total apr&egrave;s taxes<br />\r\n\t\t\t&nbsp; &nbsp;- Conditions de paiement (d&eacute;lai, m&eacute;thode, etc.)</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>5. Informations suppl&eacute;mentaires&nbsp;:</strong><br />\r\n\t\t\t&nbsp; &nbsp;- Date de la facture<br />\r\n\t\t\t&nbsp; &nbsp;- Num&eacute;ro de facture unique<br />\r\n\t\t\t&nbsp; &nbsp;- R&eacute;f&eacute;rences sp&eacute;cifiques &agrave; la commande ou au contrat<br />\r\n\t\t\t&nbsp; &nbsp;- Conditions g&eacute;n&eacute;rales de vente<br />\r\n\t\t\t&nbsp; &nbsp;- Politique de retour et de remboursement</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<h2>Importance de la facture commerciale</h2>\r\n\r\n<p>1. <strong>Preuve de transaction&nbsp;:</strong> La facture commerciale est un document essentiel pour prouver qu&#39;une transaction commerciale a eu lieu. Elle est utile en cas de litige ou de r&eacute;clamation.</p>\r\n\r\n<p>2. <strong>Gestion comptable&nbsp;:</strong> Les entreprises utilisent les factures commerciales pour tenir leurs comptes &agrave; jour, enregistrer les ventes et suivre les paiements.</p>\r\n\r\n<p>3. <strong>Conformit&eacute; fiscale&nbsp;:</strong> Les factures sont n&eacute;cessaires pour calculer et d&eacute;clarer les taxes (comme la TVA) aux autorit&eacute;s fiscales.</p>\r\n\r\n<p>4. <strong>Contr&ocirc;le des stocks&nbsp;:</strong> Elles aident &agrave; suivre les mouvements de stocks en enregistrant les biens vendus.</p>\r\n\r\n<p>5. <strong>Relations commerciales&nbsp;: </strong>Une facture bien r&eacute;dig&eacute;e et claire contribue &agrave; des relations commerciales transparentes et professionnelles entre les parties impliqu&eacute;es.</p>\r\n\r\n<h2>Conclusion</h2>\r\n\r\n<p>La facture commerciale est un document crucial dans le cadre des transactions commerciales. Elle permet de formaliser les ventes, de g&eacute;rer les comptes, de respecter les obligations fiscales et de maintenir des relations professionnelles claires et transparentes entre les vendeurs et les acheteurs.</p>",
+        "matricule": "667bd90953bd1",
+        "date": "2024-06-26",
+        "time": "09:02:01",
+        "datetime": "2024-06-26 09:02:01",
+        "id_categorie": "4186210",
+        "categorie_magasine": "587522324",
+        "user_admin": "bayiha",
+        "matricule_entreprise": "13369230429",
+        "date1": "",
+        "publie": "2",
+        "mots_cles": "/Cabinet Xtrade Consulting Group Sarl/comptabilité/douala Cameroun/Qu'est-ce que la facture commerciale",
+        "img_vedette": "0",
+        "meta_description": "",
+        "meta_titre": "",
+        "siviteurs": "",
+        "jaime": "0",
+        "matricule_admin": "15215885894",
+        "lien_service": "",
+        "call_action": ""
+    },
+    {
+        "id": "152",
+        "photo": "24-05-22-41akila_blog710.png",
+        "titre": "Amélioration de l'Efficacité Opérationnelle : Un Service Clé Offert par Xtrade Consulting",
+        "sous_titre": "",
+        "content": "<p><span style=\"font-size:18px\"><strong>Comment Am&eacute;liorer l&#39;Efficacit&eacute; Op&eacute;rationnelle de Votre Entreprise</strong></span></p>\r\n\r\n<p>L&#39;am&eacute;lioration de l&#39;efficacit&eacute; op&eacute;rationnelle est un enjeu crucial pour toute entreprise cherchant &agrave; maximiser sa productivit&eacute; tout en minimisant ses co&ucirc;ts. Cet article explore les strat&eacute;gies et les actions essentielles pour atteindre cet objectif, en optimisant les processus internes et en utilisant les ressources de mani&egrave;re plus efficiente.</p>\r\n\r\n<p><span style=\"font-size:16px\"><strong>Optimisation des Processus</strong></span></p>\r\n\r\n<p>L&#39;une des premi&egrave;res &eacute;tapes pour am&eacute;liorer l&#39;efficacit&eacute; op&eacute;rationnelle est d&#39;optimiser les processus internes. Cela implique de :</p>\r\n\r\n<ul>\r\n\t<li><strong>Identifier et &Eacute;liminer les Inefficacit&eacute;s</strong>&nbsp;: Analyser les processus de travail pour rep&eacute;rer les goulots d&#39;&eacute;tranglement et les t&acirc;ches redondantes. En supprimant ces inefficacit&eacute;s, vous pouvez acc&eacute;l&eacute;rer les op&eacute;rations et r&eacute;duire les co&ucirc;ts.</li>\r\n\t<li><strong>Automatisation:</strong> Utiliser des technologies d&#39;automatisation pour prendre en charge les t&acirc;ches r&eacute;p&eacute;titives et chronophages. Cela lib&egrave;re du temps pour les employ&eacute;s, qui peuvent se concentrer sur des activit&eacute;s &agrave; plus forte valeur ajout&eacute;e.</li>\r\n\t<li><strong>Standardisation des Proc&eacute;dures:</strong> Mettre en place des proc&eacute;dures normalis&eacute;es pour garantir la coh&eacute;rence et la qualit&eacute;. Les processus standardis&eacute;s permettent &eacute;galement de former plus facilement les nouveaux employ&eacute;s.</li>\r\n</ul>\r\n\r\n<p><span style=\"font-size:16px\">&nbsp;<strong>Utilisation des Technologies Avanc&eacute;es</strong></span></p>\r\n\r\n<p>L&#39;adoption de technologies avanc&eacute;es est essentielle pour am&eacute;liorer l&#39;efficacit&eacute; op&eacute;rationnelle. Cela peut inclure :</p>\r\n\r\n<ul>\r\n\t<li><strong>Outils et Technologies de Pointe&nbsp;</strong>: Int&eacute;grer des solutions technologiques qui am&eacute;liorent la performance des op&eacute;rations quotidiennes, comme les logiciels de gestion des t&acirc;ches et les plateformes de communication collaborative.</li>\r\n\t<li><strong>Syst&egrave;mes de Gestion des Ressources d&#39;Entreprise (ERP)</strong>&nbsp;: Utiliser des syst&egrave;mes ERP pour coordonner les activit&eacute;s de l&#39;entreprise, optimiser la gestion des ressources et am&eacute;liorer la prise de d&eacute;cision.</li>\r\n</ul>\r\n\r\n<p><span style=\"font-size:16px\"><strong>Formation et D&eacute;veloppement des Comp&eacute;tences</strong></span></p>\r\n\r\n<p>Pour que les employ&eacute;s puissent tirer le meilleur parti des nouvelles technologies et des processus optimis&eacute;s, il est crucial de :</p>\r\n\r\n<ul>\r\n\t<li><strong>Former les Employ&eacute;s</strong>&nbsp;: Proposer des formations r&eacute;guli&egrave;res sur les meilleures pratiques et les nouvelles technologies pour am&eacute;liorer les comp&eacute;tences et l&#39;efficacit&eacute;.</li>\r\n\t<li><strong>Encourager l&#39;Apprentissage Continu</strong> : Favoriser une culture d&#39;apprentissage continu o&ugrave; les employ&eacute;s sont incit&eacute;s &agrave; d&eacute;velopper leurs comp&eacute;tences et &agrave; rester &agrave; jour avec les derni&egrave;res innovations.</li>\r\n</ul>\r\n\r\n<p><span style=\"font-size:18px\"><strong>&nbsp;</strong></span><span style=\"font-size:16px\"><strong>Gestion de la Qualit&eacute;</strong></span></p>\r\n\r\n<p>Assurer une gestion de la qualit&eacute; rigoureuse est une autre composante cl&eacute; de l&#39;efficacit&eacute; op&eacute;rationnelle :</p>\r\n\r\n<ul>\r\n\t<li><strong>Syst&egrave;mes de Gestion de la Qualit&eacute;</strong>&nbsp;: Mettre en place des syst&egrave;mes pour maintenir des standards de qualit&eacute; &eacute;lev&eacute;s, comme les normes ISO.</li>\r\n\t<li><strong>M&eacute;thodes d&#39;Am&eacute;lioration Continue</strong>&nbsp;: Utiliser des m&eacute;thodologies telles que Six Sigma ou Lean pour identifier et &eacute;liminer les d&eacute;fauts, am&eacute;liorant ainsi la qualit&eacute; des produits ou services.</li>\r\n</ul>\r\n\r\n<p><span style=\"font-size:16px\"><strong>Am&eacute;lioration de la Communication et de la Collaboration</strong></span></p>\r\n\r\n<p>Une communication efficace et une collaboration fluide entre les &eacute;quipes sont essentielles :</p>\r\n\r\n<ul>\r\n\t<li><strong>Faciliter la Communication Interne</strong>&nbsp;: Utiliser des outils de communication interne pour assurer une diffusion rapide et efficace de l&#39;information.</li>\r\n\t<li><strong>Gestion de Projet&nbsp;:</strong> Employer des outils de gestion de projet pour coordonner les efforts des diff&eacute;rentes &eacute;quipes et assurer une collaboration harmonieuse.</li>\r\n</ul>\r\n\r\n<p><strong><span style=\"font-size:18px\">&nbsp;</span><span style=\"font-size:16px\">Analyse et Utilisation des Donn&eacute;es</span></strong></p>\r\n\r\n<p>L&#39;analyse des donn&eacute;es est fondamentale pour identifier les domaines n&eacute;cessitant des am&eacute;liorations :</p>\r\n\r\n<ul>\r\n\t<li><strong>Collecte et Analyse des Donn&eacute;es:</strong> Utiliser des outils analytiques pour collecter et examiner les donn&eacute;es op&eacute;rationnelles. Cela aide &agrave; identifier les inefficacit&eacute;s et &agrave; prendre des d&eacute;cisions bas&eacute;es sur des informations pr&eacute;cises.</li>\r\n\t<li><strong>Indicateurs de Performance (KPI)</strong>&nbsp;: Mettre en place des KPI pour mesurer les progr&egrave;s et ajuster les strat&eacute;gies en cons&eacute;quence.</li>\r\n</ul>\r\n\r\n<p><span style=\"font-size:16px\"><strong>&nbsp;Gestion de la Cha&icirc;ne d&#39;Approvisionnement</strong></span></p>\r\n\r\n<p>Optimiser la gestion de la cha&icirc;ne d&#39;approvisionnement est crucial pour r&eacute;duire les co&ucirc;ts et les d&eacute;lais :</p>\r\n\r\n<ul>\r\n\t<li><strong>Optimisation des Stocks et des Approvisionnements</strong>&nbsp;: Utiliser des techniques de gestion des stocks pour minimiser les co&ucirc;ts et &eacute;viter les ruptures de stock.</li>\r\n\t<li><strong>Collaboration avec les Fournisseurs&nbsp;</strong>: Travailler en &eacute;troite collaboration avec les fournisseurs pour am&eacute;liorer l&#39;efficacit&eacute; de la cha&icirc;ne d&#39;approvisionnement.</li>\r\n</ul>\r\n\r\n<p><span style=\"font-size:18px\"><strong>&nbsp;</strong></span><span style=\"font-size:16px\"><strong>Conclusion</strong></span></p>\r\n\r\n<p>En am&eacute;liorant l&#39;efficacit&eacute; op&eacute;rationnelle, les entreprises peuvent b&eacute;n&eacute;ficier de nombreux avantages, notamment la r&eacute;duction des co&ucirc;ts, l&#39;augmentation de la productivit&eacute;, l&#39;am&eacute;lioration de la qualit&eacute;, une meilleure adaptabilit&eacute; et un avantage concurrentiel accru. Adopter ces strat&eacute;gies et mettre en &oelig;uvre des am&eacute;liorations continues permettent de cr&eacute;er une entreprise plus performante et r&eacute;siliente.</p>\r\n\r\n<p>Investir dans l&#39;am&eacute;lioration de l&#39;efficacit&eacute; op&eacute;rationnelle est un choix strat&eacute;gique qui peut propulser votre entreprise vers de nouveaux sommets de succ&egrave;s.</p>\r\n\r\n<p>&nbsp;</p>",
+        "matricule": "664e334151617",
+        "date": "2024-05-22",
+        "time": "18:02:41",
+        "datetime": "2024-05-22 18:02:41",
+        "id_categorie": "4186210",
+        "categorie_magasine": "112201210",
+        "user_admin": "bayiha",
+        "matricule_entreprise": "13369230429",
+        "date1": "",
+        "publie": "2",
+        "mots_cles": "/#XtradeConsulting/#EfficacitéOpérationnelle/#Optimisation/#Productivité #Formation/#Technologie #",
+        "img_vedette": "0",
+        "meta_description": "",
+        "meta_titre": "",
+        "siviteurs": "",
+        "jaime": "0",
+        "matricule_admin": "15215885894",
+        "lien_service": "https://wa.me/237680760406",
+        "call_action": "Découvrir comment nous pouvons vous aider à améliorer l'efficacité opérationnelle de votre entreprise et propulser votre succès à un niveau supérieur."
+    },
+    {
+        "id": "11",
+        "photo": "23-04-29-53akila_blog.jpg",
+        "titre": "Quels sont les différents types de stocks ?",
+        "sous_titre": "",
+        "content": "<p>Quels sont les diff&eacute;rents types de stocks ?</p>\r\n\r\n<p>Pour une entreprise , la gestion des stocks en entrep&ocirc;t est un r&eacute;el challenge, et ce, non seulement pour sa rentabilit&eacute; financi&egrave;re, mais &eacute;galement pour s&rsquo;assurer de la satisfaction des clients. Il existe diff&eacute;rentes mani&egrave;res de classer les types de stocks en fonction de votre activit&eacute; ou du service dans lequel vous exercez vos fonctions.</p>\r\n\r\n<p>G&eacute;rer ses stocks correctement est une r&eacute;elle n&eacute;cessit&eacute; de nos jours, surtout lorsque la concurrence devient de plus en plus performante, il est primordial de ne pas mettre en p&eacute;ril l&rsquo;image de son entreprise en livrant ses produits en temps et en heure, et dans un parfait &eacute;tat.</p>\r\n\r\n<p>Ainsi, pour analyser vos stocks de mani&egrave;re pr&eacute;cise, il est possible de les diviser en plusieurs cat&eacute;gories, selon le crit&egrave;re de classification utilis&eacute;. Voici donc 3 cat&eacute;gories de types de stocks possibles :</p>\r\n\r\n<p><strong>D&eacute;finition Stock:</strong></p>\r\n\r\n<p>Ensemble des mati&egrave;res (directes ou indirectes) et des produits (finis ou en cours de fabrication) qui appartiennent &agrave; une entreprise industrielle ou commerciale &agrave; une date donn&eacute;e et qui sont entrepos&eacute;s dans l&#39;attente de leur utilisation ou de leur vente.</p>\r\n\r\n<ul>\r\n\t<li><strong>1) Types de stocks selon leur fonction</strong></li>\r\n</ul>\r\n\r\n<p>Stock de s&eacute;curit&eacute;</p>\r\n\r\n<p>Pour pallier &agrave; des circonstances extraordinaires telles qu&rsquo;un pic de commandes ou un retard de la part de l&rsquo;un de vos fournisseurs, il est n&eacute;cessaire de disposer d&rsquo;un stock de s&eacute;curit&eacute;.</p>\r\n\r\n<p>Stock d&rsquo;alerte</p>\r\n\r\n<p>Comme vous pourriez vous en doutez, ce &laquo; stock &raquo; est en r&eacute;alit&eacute; un indicateur qui vous alerte lorsqu&rsquo;est venu le moment de vous r&eacute;approvisionner. Vous devrez d&eacute;terminer le seuil de d&eacute;clenchement de ce stock, qui doit imp&eacute;rativement &ecirc;tre sup&eacute;rieur &agrave; celui du stock de s&eacute;curit&eacute; puisque sa finalit&eacute; est diff&eacute;rente.</p>\r\n\r\n<p>Stock saisonnier</p>\r\n\r\n<p>Ce stock permet d&rsquo;anticiper les p&eacute;riodes de l&rsquo;ann&eacute;e o&ugrave; votre activit&eacute; augmente et que vous devez traiter plus de commandes qu&rsquo;habituellement.</p>\r\n\r\n<p>Stock dormant</p>\r\n\r\n<p>Dans cette cat&eacute;gorie, vous devrez comptabiliser l&rsquo;ensemble des r&eacute;f&eacute;rences obsol&egrave;tes immobilis&eacute;es, que vous ne pouvez plus vendre et int&eacute;grer aux commandes clients (changement de packaging, nouvelles normes etc.).</p>\r\n\r\n<p>Stock en transit</p>\r\n\r\n<p>Il s&rsquo;agit de toutes les marchandises encore pr&eacute;sentes dans les processus de production ou de commercialisation : en cours d&rsquo;acheminement, en cours d&rsquo;emballage, en cours de fabrication, etc.</p>\r\n\r\n<p>Stock sp&eacute;culatif</p>\r\n\r\n<p>Vous constituez ce stock lorsque vous achetez des produits dans des quantit&eacute;s sup&eacute;rieures &agrave; celles dont vous avez r&eacute;ellement besoin pour profiter de remises, ou prix inf&eacute;rieurs aux prix pratiqu&eacute;s habituellement. Vous pouvez &eacute;galement &ecirc;tre amen&eacute; &agrave; cr&eacute;er ce type de stock lorsque vos fournisseurs envisagent d&rsquo;augmenter les prix de certains produits.</p>\r\n\r\n<ul>\r\n\t<li><strong>2) Types de stocks selon la date de p&eacute;remption</strong></li>\r\n</ul>\r\n\r\n<p>Stock p&eacute;rissable</p>\r\n\r\n<p>Dans cette cat&eacute;gorie de stock nous retrouvons tous les produits et marchandises qui se d&eacute;t&eacute;riorent avec le temps.</p>\r\n\r\n<p>Stock non p&eacute;rissable</p>\r\n\r\n<p>A contrario du stock p&eacute;rissable, le temps n&rsquo;a presque pas d&rsquo;impact sur les produits de ce type de stock.</p>\r\n\r\n<p>Stock avec date de p&eacute;remption</p>\r\n\r\n<p>Ces produits ne pourront plus &ecirc;tre vendus une fois la date inscrite d&eacute;pass&eacute;e.</p>\r\n\r\n<ul>\r\n\t<li><strong>3) Types de stocks selon l&rsquo;organisation op&eacute;rationnelle</strong></li>\r\n</ul>\r\n\r\n<p>Pour classer les stocks selon l&rsquo;organisation op&eacute;rationnelle, les entreprises logistiques tentent d&rsquo;appr&eacute;hender leurs stocks d&rsquo;une mani&egrave;re diff&eacute;rente, en prenant en compte de leur quotidien.</p>\r\n\r\n<p>Stock optimal</p>\r\n\r\n<p>Il s&rsquo;agit du juste &eacute;quilibre que chaque entreprise cherche &agrave; atteindre. Il permet d&rsquo;obtenir une rentabilit&eacute; maximale et ce, en minimisant l&rsquo;int&eacute;gralit&eacute; des co&ucirc;ts de maintenance. En hors saison, vous pourrez r&eacute;pondre favorablement &agrave; la demande et &agrave; la consommation de mat&eacute;riaux de votre entreprise et de vos clients gr&acirc;ce &agrave; ce type de stock.</p>\r\n\r\n<p>Le stock optimal permet d&rsquo;&eacute;viter des situations telles que les ruptures de stock ou bien le sur-stockage. Tout est calcul&eacute; de mani&egrave;re &agrave; ce que vous disposiez de la quantit&eacute; exacte de produits dont vous avez besoin.</p>\r\n\r\n<p>Stock physique</p>\r\n\r\n<p>Comme son nom l&rsquo;indique, il comptabilise l&rsquo;ensemble des r&eacute;f&eacute;rences disponibles dans l&rsquo;entrep&ocirc;t.</p>\r\n\r\n<p>Stock net</p>\r\n\r\n<p>Correspond au stock physique moins les commandes clients qui n&rsquo;ont pas encore &eacute;t&eacute; trait&eacute;es.</p>\r\n\r\n<p>Stock disponible</p>\r\n\r\n<p>Ce stock correspond &agrave; la somme de votre stock net, et des commandes pass&eacute;es aupr&egrave;s de vos fournisseurs que vous n&rsquo;avez pas encore re&ccedil;u.</p>\r\n\r\n<p>Stock minimum</p>\r\n\r\n<p>C&rsquo;est la quantit&eacute; minimale de stock &agrave; toujours avoir au sein de son entrep&ocirc;t. Si vous l&rsquo;atteignez, dans ce cas vous devrez recommander la marchandise pour vous r&eacute;approvisionner.</p>\r\n\r\n<p>Stock maximum</p>\r\n\r\n<p>Ce type de stock repr&eacute;sente la quantit&eacute; maximale de stock &agrave; ne pas d&eacute;passer. Il est de votre ressort de d&eacute;terminer son plafond, en fonction des besoins de votre entreprise, et ce, pour chacun des produits stock&eacute;s.</p>\r\n\r\n<p>Classer ses stocks par cat&eacute;gories est primordial en logistique. Comme vous l&rsquo;aurez constat&eacute;, il existe diverses mani&egrave;res de s&eacute;parer les types de stocks : par fonction, selon la date de p&eacute;remption, selon l&rsquo;organisation op&eacute;rationnelle, etc. Il est &eacute;galement possible de diviser les stocks selon leur valeur &eacute;conomique (syst&egrave;me ABC) et leur utilit&eacute; pour l&rsquo;entreprise (commerciale ou industrielle).</p>\r\n\r\n<p>Cabinet Xtrade Consulting Group Sarl</p>",
+        "matricule": "61677230429",
+        "date": "2023-04-29",
+        "time": "15:33:53",
+        "datetime": "2023-04-29 15:33:53",
+        "id_categorie": "4186210",
+        "categorie_magasine": "0",
+        "user_admin": "bayiha",
+        "matricule_entreprise": "13369230429",
+        "date1": "",
+        "publie": "2",
+        "mots_cles": "/Cabinet Xtrade Consulting Group Sarl/comptabilité",
+        "img_vedette": "0",
+        "meta_description": "1) Types de stocks selon leur fonction\r\n2) Types de stocks selon la date de péremption\r\n3) Types de stocks selon l’organisation opérationnelle",
+        "meta_titre": "Quels sont les différents types de stocks ?",
+        "siviteurs": "",
+        "jaime": "0",
+        "matricule_admin": "15215885894",
+        "lien_service": "",
+        "call_action": ""
+    }
+]
+
+       // axios
+        //   .get(
+        //     `https://akila.blog/api/articles/${Matricule}`,
+        //     new URLSearchParams({
+        //       matricule_entreprise: Matricule,
+        //     }),
+        //     {
+        //       headers: {
+        //         "Content-Type": "application/x-www-form-urlencoded",
+        //       },
+        //     }
+        //   )
+        //   .then((response) => {
+        //     console.log(response.data)
+        //     setBlogPosts(response.data);
+        //   })
+        //   .catch((error) => console.error("Erreur :", error));
+
+
+
+
+                // fetch("https://akila.blog/api/services", {
+        //   method: "POST",
+        //   headers: {
+        //     "Content-Type": "application/x-www-form-urlencoded",
+        //     "matricule_entreprise": Matricule,
+        //   },
+        //   body: new URLSearchParams({
+        //     "matricule_entreprise": Matricule,
+        //   }),
+        // })
+        //   .then((response) => response.json())
+        //   .then((data) => {
+        //     setBlogPosts(data);
+        //     console.log("erreur lors de la récupération des données")
+        //     console.log(data);
+        //   })
+        //   .catch((error) => console.error("Erreur :", error));

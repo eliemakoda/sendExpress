@@ -3,4 +3,8 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://sendexpresscompany.com/sitemap.xml
+Sitemap: https://https://www.sendexpresscompany.com/sitemap.xml
+Sitemap: https://https://www.sendexpresscompany.com/About
+Sitemap: https://https://www.sendexpresscompany.com/Blog
+Sitemap: https://https://www.sendexpresscompany.com/contact
+    
